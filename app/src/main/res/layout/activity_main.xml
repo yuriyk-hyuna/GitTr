@@ -5,15 +5,26 @@
     tools:context=".MainActivity">
 
     <TextView
+        android:id="@+id/text_top"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/text_top"
-        android:text="@string/greeting" />
+        android:layout_centerInParent="true"
+        android:background="@android:color/white"
+        android:clickable="true"
+        android:elevation="8dp"
+        android:text="@string/greeting"
+        android:textSize="30sp" />
 
     <TextView
-        android:layout_width="wrap_content"
         android:id="@+id/text_bottom"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/cansel" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/buttonBip"
+        android:onClick="start" />
 
 </RelativeLayout>
