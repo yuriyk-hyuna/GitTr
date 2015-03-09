@@ -15,16 +15,13 @@
         android:text="@string/greeting"
         android:textSize="30sp" />
 
-    <TextView
-        android:id="@+id/text_bottom"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/cansel" />
-
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/buttonBip"
-        android:onClick="start" />
+        android:onClick="start"
+        android:layout_marginBottom="40dp"
+        android:layout_above="@+id/text_top"
+        android:layout_centerHorizontal="true" />
 
 </RelativeLayout>
