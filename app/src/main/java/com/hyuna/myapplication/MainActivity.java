@@ -12,7 +12,7 @@ import java.text.DecimalFormat;
 
 
 public class MainActivity extends ActionBarActivity {
-    Button button;
+    private Button button;
 
 
 
@@ -23,7 +23,7 @@ public class MainActivity extends ActionBarActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         button = (Button) findViewById(R.id.buttonBip);
-
+        this.startActionMode(callback);
 
 
 
