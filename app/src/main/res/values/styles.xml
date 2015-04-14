@@ -1,0 +1,17 @@
+<resources>
+
+    <style name="AppTheme" parent="Base.Theme.AppCompat.Light">
+        <!--<item name="android:actionBarTabTextStyle">@style/TabTextStile</item>-->
+        <item name="android:windowActionBar">false</item>
+    </style>
+
+    <style name="ActionBarS" parent="Base.Widget.AppCompat.ActionBar">
+
+    </style>
+
+    <style name="TabTextStile" parent="Base.Widget.AppCompat.ActionBar.TabView">
+        <item name="android:textColor">@color/text</item>
+        <item name="android:background">@drawable/tab</item>
+    </style>
+
+</resources>
